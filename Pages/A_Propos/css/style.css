@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Raleway:100,200,300,400,500,600,700,800,900|Yellowtail");
+.col-md-offset-right-1 {
+  margin-right: 8.33333333%;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body .content_inner_bg {
+  background: #efefef;
+}
+
+.pad {
+  padding: 0px 68px;
+}
+
+
+/* Main title */
+
+.main_title {
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.main_title h2 {
+  font-size: 36px;
+  font-family: "Bree Serif", serif;
+  color: #222222;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #222222;
+  display: inline-block;
+  line-height: 58px;
+  padding: 0px 23px;
+}
+/* End Main title*/
+
+
+/* Loading */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  z-index: 99999999;
+}
+
+#preloader #preloader_spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.spinner {
+  -webkit-animation: load 1s infinite linear;
+  -moz-animation: load 1s infinite linear;
+  animation: load 1s infinite linear;
+  background: -webkit-linear-gradient(top, #fec608 10%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to bottom, #fec608 10%, rgba(255, 255, 255, 0) 100%);
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  font-size: 18px;
+  margin: auto;
+  position: relative;
+}
+
+.spinner:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 50%, #fec608 50%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #fec608 50%);
+  border-radius: 100%;
+  content: '';
+}
+
+.spinner:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 90%;
+  width: 90%;
+  background: #fff;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+}
+
+
+@keyframes load {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* End Loading */
+
+
+/* Presentation */
+
+.about_person_area {
+  background: #fff;
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about_person_area .person_img {
+  max-width: 322px;
+}
+
+.about_person_area .person_img .download_btn {
+  margin-top: 40px;
+}
+
+.about_person_area .person_details {
+  margin-left: -30px;
+}
+
+.about_person_area .person_details h3 {
+  font-size: 36px;
+  color: #333333;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.about_person_area .person_details h3 span {
+  color: #fec608;
+}
+
+.about_person_area .person_details h4 {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #666666;
+  padding-bottom: 15px;
+}
+
+.about_person_area .person_details p {
+  font-size: 13px;
+  line-height: 24px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.about_person_area .person_details .person_information {
+  padding: 15px 0px 25px 0px;
+}
+
+.about_person_area .person_details .person_information ul {
+  display: inline-block;
+}
+
+.about_person_area .person_details .person_information ul li a {
+  font-size: 13px;
+  line-height: 26px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+}
+
+.about_person_area .person_details .person_information ul + ul {
+  padding-left: 55px;
+}
+
+.about_person_area .person_details .person_information ul + ul li a {
+  font-size: 13px;
+  line-height: 26px;
+  color: #666666;
+  font-family: "Raleway", sans-serif;
+}
+
+.social_icon li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social_icon li a {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border: 1px solid #677fb5;
+  display: block;
+  line-height: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: all 400ms linear 0s;
+  color: #677fb5;
+}
+
+/* Twitter */
+.social_icon li:nth-child(2) a {
+  color: #70c2e9;
+  border-color: #70c2e9;
+}
+
+.social_icon li:nth-child(2):hover a {
+  background: #70c2e9;
+}
+
+/* Linkedin */
+.social_icon li:last-child:hover a {
+  background: #faaa5e;
+}
+.social_icon li:last-child a {
+  color: #faaa5e;
+  border-color: #faaa5e;
+}
+
+/* Facebook */
+.social_icon li:hover a {
+  background: #677fb5;
+  color: #fff;
+}
+/* End Presentation */
+
+/* Download BTN */
+.download_btn {
+  display: block;
+  background: #fec608;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 20px;
+  color: #222222;
+  font-size: 18px;
+  font-family: "Yellowtail", cursive;
+  position: relative;
+  overflow: hidden;
+}
+
+.download_btn span {
+  display: inline-block;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  height: 100%;
+  transition: all 400ms linear 0s;
+}
+
+.download_btn:before {
+  content: "\f019";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  color: #222222;
+  top: -100%;
+  left: 0px;
+  font-family: FontAwesome;
+  transition: all 200ms ease-in;
+}
+
+.download_btn:hover span {
+  -webkit-transform: translateY(300%);
+  -ms-transform: translateY(300%);
+  transform: translateY(300%);
+}
+
+.download_btn:hover:before {
+  top: 0px;
+}
+/* End Download BTN */
+
+/* Skill */
+.myskill_area .skill_text {
+  padding-bottom: 28px;
+}
+
+.myskill_area .skill_text h4 {
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.myskill_area .skill_text p {
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+}
+
+.myskill_area .skill_item_inner .single_skill h4 {
+  font-size: 16px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.myskill_area .skill_item_inner .single_skill .progress {
+  margin-bottom: 30px;
+  height: 30px;
+  border-radius: 0px;
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+  background: #fff;
+}
+
+.myskill_area .skill_item_inner .single_skill .progress .progress-bar {
+  background: #fec608;
+  box-shadow: none;
+}
+
+.myskill_area .skill_item_inner .single_skill .progress .progress-bar .progress_parcent {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 30px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.myskill_area .skill_item_inner .single_skill:last-child .progress {
+  margin-bottom: 0px;
+}
+
+/* End Skill */
+
+/* Education */
+.education_area {
+  padding-bottom: 60px;
+}
+
+.education_area .education_inner_area {
+  position: relative;
+  overflow: hidden;
+}
+
+.education_area .education_inner_area:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 5px;
+  margin-left: -2.5px;
+  background: rgba(254, 198, 8, 0.5);
+}
+
+.education_area .education_inner_area .education_item {
+  width: 50%;
+  max-width: 420px;
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.education_area .education_inner_area .education_item:before {
+  content: attr(data-line);
+  position: absolute;
+  right: -108px;
+  top: 0px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 4px solid #f7da7b;
+  text-align: center;
+  color: #fff;
+  line-height: 43px;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #fec608;
+}
+
+.education_area .education_inner_area .education_item:after {
+  content: "";
+  background: #f7da7b;
+  height: 4px;
+  position: absolute;
+  right: -78px;
+  top: 0px;
+  width: 119%;
+}
+
+.education_area .education_inner_area .education_item:nth-child(even) {
+  float: right;
+}
+
+.education_area .education_inner_area .education_item:nth-child(even):before {
+  right: auto;
+  left: -108px;
+}
+
+.education_area .education_inner_area .education_item:nth-child(even):after {
+  left: -78px;
+}
+
+.education_area .education_inner_area .education_item:nth-child(odd) {
+  float: left;
+}
+
+.education_area .education_inner_area .education_item:nth-child(2) {
+  margin-top: 108px;
+}
+
+.education_area .education_inner_area .education_item:last-child {
+  margin-bottom: 0px;
+}
+
+.education_area .education_inner_area .education_item h6 {
+  font-size: 14px;
+  color: #fec608;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.education_area .education_inner_area .education_item h4 {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+  padding: 8px 0px 7px 0px;
+}
+
+.education_area .education_inner_area .education_item h5 {
+  font-size: 14px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+}
+
+.education_area .education_inner_area .education_item p {
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  color: #666666;
+  font-weight: 400;
+  padding-top: 12px;
+}
+
+/* End Education */
