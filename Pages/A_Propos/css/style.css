@@ -31,7 +31,7 @@ body .content_inner_bg {
 
 .main_title h2 {
   font-size: 36px;
-  font-family: "Bree Serif", serif;
+  font-family: "Raleway", sans-serif;
   color: #222222;
   text-transform: uppercase;
   text-align: center;
@@ -220,16 +220,6 @@ body .content_inner_bg {
   color: #677fb5;
 }
 
-/* Twitter */
-.social_icon li:nth-child(2) a {
-  color: #70c2e9;
-  border-color: #70c2e9;
-}
-
-.social_icon li:nth-child(2):hover a {
-  background: #70c2e9;
-}
-
 /* Linkedin */
 .social_icon li:last-child:hover a {
   background: #faaa5e;
@@ -280,7 +270,7 @@ body .content_inner_bg {
   color: #222222;
   top: -100%;
   left: 0px;
-  font-family: FontAwesome;
+  font-family: "Raleway", sans-serif;
   transition: all 200ms ease-in;
 }
 

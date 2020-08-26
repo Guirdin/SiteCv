@@ -1,8 +1,8 @@
 body
 {
-    background: url("images/Fond_Profil.jpg");
+    background: url("images/Ordi-Nature.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 120%;
+    background-size: 100% 100%;
     background-attachment: fixed;
     z-index: 1;
 }
